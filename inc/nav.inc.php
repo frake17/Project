@@ -3,7 +3,7 @@
 
     <a class="navbar-brand d-flex align-items-center fs-2 me-5" href="#">
       Website Name
-      <img src="../img/websitelogo.jpg" alt="Logo" width="30" height="30" class="ms-3">
+      <i class="fa-solid fa-utensils ms-3"></i>
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
@@ -28,8 +28,29 @@
       </ul>
 
       <div class="d-flex ms-auto">
-        <button class="btn btn-light me-2">Login</button>
-        <button class="btn btn-orange">Sign Up</button>
+
+        <!-- Login Dropdown -->
+        <div class="dropdown me-2">
+          <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            Login
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Login as User</a></li>
+            <li><a class="dropdown-item" href="#">Login as Vendor</a></li>
+          </ul>
+        </div>
+
+        <!-- Sign Up Dropdown -->
+        <div class="dropdown">
+          <button class="btn btn-orange dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            Sign Up
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Sign up as User</a></li>
+            <li><a class="dropdown-item" href="#">Sign up as Vendor</a></li>
+          </ul>
+        </div>
+
       </div>
 
     </div>

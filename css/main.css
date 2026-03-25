@@ -28,7 +28,11 @@
   max-height: 200px;  /* control height */
 }
 
-img {
-    max-width: 120px;
-    max-height: 120px;
+.Welcomeimg {
+    max-width: 20%;
 }
+
+.stall-card {
+    max-height: 35vh;
+}
+
