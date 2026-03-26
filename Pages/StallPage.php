@@ -10,20 +10,20 @@
 
 <body class="offwhite">
     <?php
-    include "../inc/nav.inc.php";
+    include "../inc/navvendor.inc.php";
     ?>
     <div class="d-flex justify-content-center flex-column align-items-center m-3 w-80 rounded mx-auto container">
         <!-- Store Information -->
-        <div class="stall-card position-relative rounded overflow-hidden w-100">
+        <div class="stall-card position-relative rounded overflow-hidden w-100 maxheight-50">
 
             <img src="../img/Stall.jpg" class="card-img w-100 h-100 object-fit-cover" alt="Stall Image">
 
             <div
                 class="d-flex justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 text-white p-4 rounded">
 
-                <div class="bg-white text-dark p-3 rounded text-center rounded w-50">
+                <div class="bg-white text-dark p-4 rounded text-center rounded w-50">
                     <h4 class="mb-2 display-5" id="StallName">Stall Name</h4>
-                    <p class="mb-1" id="Location">Canteen 1</p>
+                    <p class="mb-2" id="Location">Canteen 1</p>
                     <p class="mb-2" id="Hours">Opening Hours</p>
                     <div class="chart-container w-75 mx-auto">
                         <canvas id="ratingChart2"></canvas>

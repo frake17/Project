@@ -52,8 +52,8 @@
         <div class="d-flex flex-row flex-md-row justify-content-center align-items-center gap-3 border border-black rounded py-3 bg-light mt-4 w-100">
             <img src="../img/Stall.jpg" alt="Food Image" class="img-fluid ms-3 rounded Welcomeimg">
             <div class = "d-flex flex-column justify-content-center align-items-center">
-                <h1>Stall Name</h1>
-                <h3>Prices range</h3>
+                    <p class="display-3 mb-0">Stall Name</p>
+                    <p class="mb-0">Price range</p>
             </div>
             <div class="chart-container w-25">
                 <canvas id="ratingChart2"></canvas>

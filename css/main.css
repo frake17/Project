@@ -42,10 +42,34 @@
 }
 
 .Welcomeimg {
-    max-width: 20%;
+    max-width: 25%;
+    max-height: auto;
+}
+
+.ProfileImg {
+    max-width: 10%;
 }
 
 .stall-card {
     max-height: 35vh;
 }
 
+.tab-btn {
+    text-decoration: none; 
+    color: inherit;         
+    cursor: pointer;        
+}
+
+.tab-btn.active {
+    font-weight: bold;     
+    color: #E94B3C;        
+}
+
+.tab-btn:hover {
+    color: #E94B3C;        
+    text-decoration: none;  
+}
+
+.maxheight-50 {
+    max-height: 50vh;
+}
