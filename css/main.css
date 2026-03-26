@@ -7,13 +7,26 @@
     background-color: white;
     color: black;
     border: black solid 1px;
+}
+
+.btn-orange.dropdown-toggle.show,
+.btn-orange.dropdown-toggle:focus {
+    background-color: white;
     color: black;
 }
+
 
 .btn-light:hover {
     background-color: #E94B3C;
     color: white;
 }
+
+.btn-light.dropdown-toggle.show,
+.btn-light.dropdown-toggle:focus {
+    background-color: #E94B3C;
+    color: white;
+}
+
 
 .w-80 {
     width: 80%;

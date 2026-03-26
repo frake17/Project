@@ -13,7 +13,7 @@ new Chart(ctx, {
     labels: ['Rating'],
     datasets: [{
       label: 'Score',
-      data: [4.5], // your rating
+      data: [4.5],
       backgroundColor: '#E94B3C',
     }]
   },
@@ -43,7 +43,7 @@ new Chart(ctx2, {
     labels: ['Rating'],
     datasets: [{
       label: 'Score',
-      data: [1.5], // your rating
+      data: [1.5],
       backgroundColor: '#E94B3C',
     }]
   },

@@ -12,7 +12,7 @@
     <?php
     include "../inc/nav.inc.php";
     ?>
-    <div class="d-flex justify-content-center flex-column align-items-center m-3 w-80 rounded mx-auto">
+    <div class="d-flex justify-content-center flex-column align-items-center m-3 w-80 rounded mx-auto container">
         <!-- Store Information -->
         <div class="stall-card position-relative rounded overflow-hidden w-100">
 
@@ -25,7 +25,7 @@
                     <h4 class="mb-2 display-5" id="StallName">Stall Name</h4>
                     <p class="mb-1" id="Location">Canteen 1</p>
                     <p class="mb-2" id="Hours">Opening Hours</p>
-                    <div class="chart-container ">
+                    <div class="chart-container w-75 mx-auto">
                         <canvas id="ratingChart2"></canvas>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                             <img src="../img/User.jpg" alt="User" class="img-fluid rounded w-25">
                         </div>
                         <p class="mb-0">Description</p>
-                        <div class="chart-container">
+                        <div class="chart-container w-75">
                             <canvas id="ratingChart"></canvas>
                         </div>
                     </div>

@@ -11,7 +11,7 @@
     include "../inc/nav.inc.php";
     ?>
     <div class="container d-flex justify-content-center flex-column align-items-center p-3">
-        <h1 class="text-center mb-4 display-1">Trending stalls around campus</h1>
+        <h1 class="text-center mb-4 display-1">Food Stalls In Canteen(Number)</h1>
         <!-- Sort and filter dropdowns -->
         <div class="d-flex flex-column flex-md-row justify-content-center gap-3 w-100">
             <div class="dropdown flex-fill">
@@ -52,7 +52,7 @@
         <div class="d-flex flex-row flex-md-row justify-content-center align-items-center gap-3 border border-black rounded py-3 bg-light mt-4 w-100">
             <img src="../img/Stall.jpg" alt="Food Image" class="img-fluid ms-3 rounded Welcomeimg">
             <div class = "d-flex flex-column justify-content-center align-items-center">
-                <h1>Stall Name</h1>
+                <h1><a href="../Pages/StallPage.php">Stall Name</a></h1>
                 <h3>Prices range</h3>
             </div>
             <div class="chart-container w-25">

@@ -20,9 +20,6 @@
           <a class="nav-link fs-4" href="#">Rating</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fs-4" href="#">Users</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link fs-4" href="#">About us</a>
         </li>
       </ul>

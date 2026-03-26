@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
 
-    <a class="navbar-brand d-flex align-items-center fs-2 me-5" href="#">
+    <a class="navbar-brand d-flex align-items-center fs-2 me-5" href="../Pages/Welcome.php">
       Website Name
       <i class="fa-solid fa-utensils ms-3"></i>
     </a>
@@ -13,14 +13,17 @@
     <div class="collapse navbar-collapse" id="navbarContent">
 
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link fs-4" href="#">Canteen</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle fs-4 d-flex align-items-center gap-1" href="#" role="button"
+            data-bs-toggle="dropdown">
+            Canteen
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../Pages/Canteen.php">Canteen 1</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link fs-4" href="#">Rating</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fs-4" href="#">Users</a>
         </li>
         <li class="nav-item">
           <a class="nav-link fs-4" href="#">About us</a>
@@ -35,8 +38,8 @@
             Login
           </button>
           <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="#">Login as User</a></li>
-            <li><a class="dropdown-item" href="#">Login as Vendor</a></li>
+            <li><a class="dropdown-item" href="../Pages/Login.php">Login as User</a></li>
+            <li><a class="dropdown-item" href="../Pages/Login.php">Login as Vendor</a></li>
           </ul>
         </div>
 
@@ -46,8 +49,8 @@
             Sign Up
           </button>
           <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item" href="#">Sign up as User</a></li>
-            <li><a class="dropdown-item" href="#">Sign up as Vendor</a></li>
+            <li><a class="dropdown-item" href="../Pages/Signup.php">Sign up as User</a></li>
+            <li><a class="dropdown-item" href="../Pages/VendorSignUp.php">Sign up as Vendor</a></li>
           </ul>
         </div>
 

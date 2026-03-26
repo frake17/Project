@@ -10,7 +10,7 @@
     <?php
     include "../inc/nav.inc.php";
     ?>
-     <div class="d-flex justify-content-center flex-column align-items-center m-3 p-3 bg-light w-50 rounded mx-auto">
+     <div class="d-flex justify-content-center flex-column align-items-center m-3 p-3 bg-light w-50 rounded mx-auto container">
         <div>
             <h1 class="text-center mb-4 display-1">Welcome</h1>
         </div>
