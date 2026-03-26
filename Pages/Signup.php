@@ -3,12 +3,12 @@
 <head>
     <title>Sign Up</title>
     <?php
-    include "../inc/header.inc.php";
+    include "../includes/header.inc.php";
     ?>
 </head>
 <body class="offwhite">
     <?php
-    include "../inc/nav.inc.php";
+    include "../includes/nav.inc.php";
     ?>
      <div class="d-flex justify-content-center flex-column align-items-center m-3 p-3 bg-light w-50 rounded mx-auto container">
         <div>

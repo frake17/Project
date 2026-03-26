@@ -3,12 +3,12 @@
 <head>
     <title>Welcome Page</title>
     <?php
-    include "../inc/header.inc.php";
+    include "../includes/header.inc.php";
     ?>
 </head>
 <body class="offwhite">
     <?php
-    include "../inc/nav.inc.php";
+    include "../includes/nav.inc.php";
     ?>
     <div class="container d-flex justify-content-center flex-column align-items-center p-3">
         <h1 class="text-center mb-4 display-1">Trending stalls around campus</h1>

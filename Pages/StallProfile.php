@@ -4,13 +4,13 @@
 <head>
     <title>Your Profile</title>
     <?php
-    include "../inc/header.inc.php";
+    include "../includes/header.inc.php";
     ?>
 </head>
 
 <body class="offwhite">
     <?php
-    include "../inc/navvendor.inc.php";
+    include "../includes/navvendor.inc.php";
     ?>
     <div class="container d-flex flex-row justify-content-center align-items-start gap-3 p-3 mt-3 w-100">
         <!-- Profile Information -->

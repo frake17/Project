@@ -4,13 +4,13 @@
 <head>
     <title>Stall Page</title>
     <?php
-    include "../inc/header.inc.php";
+    include "../includes/header.inc.php";
     ?>
 </head>
 
 <body class="offwhite">
     <?php
-    include "../inc/navvendor.inc.php";
+    include "../includes/navvendor.inc.php";
     ?>
     <div class="d-flex justify-content-center flex-column align-items-center m-3 w-80 rounded mx-auto container">
         <!-- Store Information -->
